@@ -43,7 +43,7 @@ const Stair = (props) => {
 
         gsap.from(pageRef.current,{
             opacity:0,
-            delay:0.4
+            delay:1.5
         })
 
     },[currentPath])
